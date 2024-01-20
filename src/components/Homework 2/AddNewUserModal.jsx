@@ -3,8 +3,7 @@ import { Modal, ModalBody, ModalFooter, ModalHeader } from "reactstrap";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import axios from "axios";
-const AddNewUserModal = ({ open, toggle, editUser, setEditUser }) => {
-  const [startDate, setStartDate] = useState(new Date());
+const AddNewUserModal = ({ open, toggle, editUser, startDate, setStartDate }) => {
   const [genderstatus, setGenderStatus] = useState("");
   const handleAdd = (e) => {
     e.preventDefault();

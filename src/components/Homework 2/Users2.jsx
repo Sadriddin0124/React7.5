@@ -8,6 +8,7 @@ import AddNewUserModal from "./AddNewUserModal";
 import DeleteModal from "./DeleteModal";
 
 const Users2 = () => {
+  const [startDate, setStartDate] = useState(new Date());
   const [users, setUsers] = useState([]);
   let [pagination, setPagination] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
@@ -55,6 +56,8 @@ const Users2 = () => {
   const editThatUser = (item) => {
     setEditUser(item);
     setModalVisible(true);
+    setStartDate(new Date(item.birth_date))
+    console.log(item.birth_date);
   };
   return (
     <div className="container">
@@ -63,6 +66,8 @@ const Users2 = () => {
         toggle={toggle}
         editUser={editUser}
         setEditUser={setEditUser}
+        startDate={startDate}
+        setStartDate={setStartDate}
       />
       <DeleteModal
         open={delete_modal}
