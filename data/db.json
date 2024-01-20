@@ -1,0 +1,294 @@
+{
+  "blogs": [
+    {
+      "name": "Alihyfh",
+      "surname": "Valiyev",
+      "phone": 88983834,
+      "count": 0,
+      "active": false,
+      "id": "1926"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "full_name": "Jeanette Penddreth",
+      "gender": "Female",
+      "birth_date": "26/01/2001",
+      "profession": "IT"
+    },
+    {
+      "id": 2,
+      "full_name": "Giavani Frediani",
+      "gender": "Male",
+      "birth_date": "22/11/1999",
+      "profession": "Accounting"
+    },
+    {
+      "id": 3,
+      "full_name": "Noell Bea",
+      "gender": "Female",
+      "birth_date": "18/06/1988",
+      "profession": "Marketing"
+    },
+    {
+      "id": 4,
+      "full_name": "Willard Valek",
+      "gender": "Male",
+      "birth_date": "06/07/2000",
+      "profession": "IT"
+    },
+    {
+      "id": 5,
+      "full_name": "Jeanette Penddreth",
+      "gender": "Female",
+      "birth_date": "26/01/2001",
+      "profession": "IT"
+    },
+    {
+      "id": 6,
+      "full_name": "Giavani Frediani",
+      "gender": "Male",
+      "birth_date": "22/11/1999",
+      "profession": "Accounting"
+    },
+    {
+      "id": 7,
+      "full_name": "Noell Bea",
+      "gender": "Female",
+      "birth_date": "18/06/1988",
+      "profession": "Marketing"
+    },
+    {
+      "id": 8,
+      "full_name": "Willard Valek",
+      "gender": "Male",
+      "birth_date": "06/07/2000",
+      "profession": "IT"
+    },
+    {
+      "id": 9,
+      "full_name": "Jeanette Penddreth",
+      "gender": "Female",
+      "birth_date": "26/01/2001",
+      "profession": "IT"
+    },
+    {
+      "id": 10,
+      "full_name": "Giavani Frediani",
+      "gender": "Male",
+      "birth_date": "22/11/1999",
+      "profession": "Accounting"
+    },
+    {
+      "id": 11,
+      "full_name": "Noell Bea",
+      "gender": "Female",
+      "birth_date": "18/06/1988",
+      "profession": "Marketing"
+    },
+    {
+      "id": 12,
+      "full_name": "Willard Valek",
+      "gender": "Male",
+      "birth_date": "06/07/2000",
+      "profession": "Marketing"
+    },
+    {
+      "id": 13,
+      "full_name": "Jeanette Penddreth",
+      "gender": "Female",
+      "birth_date": "26/01/2001",
+      "profession": "IT"
+    },
+    {
+      "id": 14,
+      "full_name": "Giavani Frediani",
+      "gender": "Male",
+      "birth_date": "22/11/1999",
+      "profession": "Accounting"
+    },
+    {
+      "id": 15,
+      "full_name": "Noell Bea",
+      "gender": "Female",
+      "birth_date": "18/06/1988",
+      "profession": "Marketing"
+    },
+    {
+      "id": 16,
+      "full_name": "Willard Valek",
+      "gender": "Male",
+      "birth_date": "06/07/2000",
+      "profession": "Accounting"
+    },
+    {
+      "id": "4637",
+      "full_name": "Sadriddin Ravshanov",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/24/2006"
+    },
+    {
+      "id": "2224",
+      "full_name": "Nodirbek A'zamov",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2006"
+    },
+    {
+      "full_name": "Sobir Alimov",
+      "profession": "Marketing",
+      "gender": "Male",
+      "birth_date": "01/24/2002",
+      "id": "c075"
+    },
+    {
+      "id": "b4b4",
+      "full_name": "Uchqun",
+      "profession": "Marketing",
+      "gender": "Male",
+      "birth_date": "11/24/2005"
+    },
+    {
+      "id": "ff21",
+      "full_name": "erwweewr",
+      "profession": "IT",
+      "gender": "",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "e628",
+      "full_name": "sdgfe",
+      "profession": "",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "3e94",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "0a13",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "077a",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "01d9",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "871d",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "59d4",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "1a86",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "c56f",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "70bf",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "b245",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "a3d8",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "f942",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "abf5",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "54e3",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "90ec",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "d5f6",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "97b6",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    },
+    {
+      "id": "04eb",
+      "full_name": "reg",
+      "profession": "IT",
+      "gender": "Male",
+      "birth_date": "01/20/2024"
+    }
+  ]
+}
