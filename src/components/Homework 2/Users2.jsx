@@ -15,6 +15,7 @@ const Users2 = () => {
   const [delete_modal, setdelete_modal] = useState(false)
   const [editUser, setEditUser] = useState("");
   const [disabled, setDisabled] = useState('')
+  const [category, setCategory] = useState('')
   useEffect(() => {
     axios.get(`http://localhost:8000/users?_page=${pagination}`).then((res) => {
       setDisabled(res?.data?.next)
@@ -23,14 +24,8 @@ const Users2 = () => {
     let page = localStorage.getItem("page");
     setPagination(+page);
   }, [pagination]);
-  const filterUsers = (e) => {
-    let filteredUsers = users.filter((item) =>
-      item.profession.toLowerCase().includes(e.target.value.toLowerCase())
-    );
-    console.log(e.target.value);
-    console.log(filteredUsers);
-    setUsers([...filteredUsers]);
-  };
+  const filtered_users = category ? users.filter(item => item.profession === category) : users
+
   const resetUsers = () => {
     window.location.reload();
   };
@@ -76,7 +71,7 @@ const Users2 = () => {
       />
       <div className="row">
         <div className="col-4 d-flex gap-2 my-4">
-          <select className="form-control" onChange={filterUsers}>
+          <select className="form-control" onChange={(e)=>setCategory(e.target.value)}>
             <option value="" hidden>
               Filter
             </option>
@@ -130,7 +125,7 @@ const Users2 = () => {
               </tr>
             </thead>
             <tbody>
-              {users.map((item, index) => {
+              {filtered_users.map((item, index) => {
                 return (
                   <tr key={index}>
                     <td>{index + 1}</td>
